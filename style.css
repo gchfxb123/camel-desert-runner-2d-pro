@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #87ceeb;
+  font-family: system-ui, -apple-system;
+}
+
+canvas {
+  display: block;
+}
+
+#hud {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+#score {
+  color: white;
+  background: rgba(0,0,0,0.35);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+#pauseBtn {
+  background: rgba(0,0,0,0.35);
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+#pauseMenu {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.3);
+}
+
+#pauseMenu button {
+  padding: 14px 26px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
